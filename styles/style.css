@@ -61,6 +61,14 @@ ul {
   margin-right: 40px;
 }
 
+.header__navLink {
+  display: inline-block;
+}
+
+.header__navLink:hover {
+  color: #FBD784;
+}
+
 .header__accountWrapper {
   display: flex;
   align-items: center;
@@ -273,6 +281,10 @@ ul {
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
+}
+
+.rightColumn__link:hover {
+  color: #FBD784;
 }
 
 /* MEDIA */

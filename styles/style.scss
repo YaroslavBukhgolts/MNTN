@@ -57,6 +57,12 @@ ul {
 .header__navItem:not(:last-child) {
     margin-right: 40px;
 }
+.header__navLink {
+    display: inline-block;
+}
+.header__navLink:hover {
+    color: $color2;  
+}
 .header__accountWrapper {
     display: flex;
     align-items: center;
@@ -244,7 +250,9 @@ ul {
     font-size: 18px;
     line-height: 32px;
 }
-
+.rightColumn__link:hover {
+    color:$color2;
+}
 /* MEDIA */
 @media  screen and (max-width: 1440px) {
     .titleWrapper {
